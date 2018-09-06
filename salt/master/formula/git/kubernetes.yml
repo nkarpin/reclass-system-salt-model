@@ -6,13 +6,13 @@ parameters:
           formula:
             kubernetes:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-kubernetes.git'
+              address: '${_param:salt_master_environment_repository}/kubernetes.git'
               revision: ${_param:salt_master_environment_revision}
             etcd:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-etcd.git'
+              address: '${_param:salt_master_environment_repository}/etcd.git'
               revision: ${_param:salt_master_environment_revision}
             docker:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-docker.git'
+              address: '${_param:salt_master_environment_repository}/docker.git'
               revision: ${_param:salt_master_environment_revision}

@@ -10,12 +10,15 @@ parameters:
           version: latest
         cloud-init:
           version: purged
-        mcelog:
-          version: latest
+          #mcelog:
+          #version: latest
         python-msgpack:
           version: latest
         unattended-upgrades:
           version: purged
+        # bionic
+        ifupdown:
+          version: latest
       apt:
         config:
           compression-workaround:

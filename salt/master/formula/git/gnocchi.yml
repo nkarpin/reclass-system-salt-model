@@ -6,5 +6,5 @@ parameters:
           formula:
             gnocchi:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-gnocchi.git'
+              address: '${_param:salt_master_environment_repository}/gnocchi.git'
               revision: ${_param:salt_master_environment_revision}

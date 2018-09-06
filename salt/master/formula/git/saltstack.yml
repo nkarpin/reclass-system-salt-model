@@ -8,38 +8,38 @@ parameters:
           formula:
             backupninja:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-backupninja.git'
+              address: '${_param:salt_master_environment_repository}/backupninja.git'
               revision: ${_param:salt_master_environment_revision}
             git:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-git.git'
+              address: '${_param:salt_master_environment_repository}/git.git'
               revision: ${_param:salt_master_environment_revision}
             iptables:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-iptables.git'
+              address: '${_param:salt_master_environment_repository}/iptables.git'
               revision: ${_param:salt_master_environment_revision}
             libvirt:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-libvirt.git'
+              address: '${_param:salt_master_environment_repository}/libvirt.git'
               revision: ${_param:salt_master_environment_revision}
             linux:
               module:
                 linux_netlink.py:
                   enabled: true
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-linux.git'
+              address: '${_param:salt_master_environment_repository}/linux.git'
               revision: ${_param:salt_master_environment_revision}
             ntp:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-ntp.git'
+              address: '${_param:salt_master_environment_repository}/ntp.git'
               revision: ${_param:salt_master_environment_revision}
             openssh:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-openssh.git'
+              address: '${_param:salt_master_environment_repository}/openssh.git'
               revision: ${_param:salt_master_environment_revision}
             reclass:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-reclass.git'
+              address: '${_param:salt_master_environment_repository}/reclass.git'
               revision: ${_param:salt_master_environment_revision}
               module:
                 reclass.py:
@@ -49,7 +49,7 @@ parameters:
                   enabled: true
             salt:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-salt.git'
+              address: '${_param:salt_master_environment_repository}/salt.git'
               revision: ${_param:salt_master_environment_revision}
               module:
                 seedng.py:
@@ -58,20 +58,20 @@ parameters:
                   enabled: true
             sphinx:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-sphinx.git'
+              address: '${_param:salt_master_environment_repository}/sphinx.git'
               revision: ${_param:salt_master_environment_revision}
             watchdog:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-watchdog.git'
+              address: '${_param:salt_master_environment_repository}/watchdog.git'
             xtrabackup:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-xtrabackup.git'
+              address: '${_param:salt_master_environment_repository}/xtrabackup.git'
               revision: ${_param:salt_master_environment_revision}
             zookeeper:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-zookeeper.git'
+              address: '${_param:salt_master_environment_repository}/zookeeper.git'
               revision: ${_param:salt_master_environment_revision}
             cassandra:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-cassandra.git'
+              address: '${_param:salt_master_environment_repository}/cassandra.git'
               revision: ${_param:salt_master_environment_revision}

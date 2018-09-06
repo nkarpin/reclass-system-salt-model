@@ -6,5 +6,5 @@ parameters:
           formula:
             watchdog:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-watchdog.git'
+              address: '${_param:salt_master_environment_repository}/watchdog.git'
               revision: ${_param:salt_master_environment_revision}

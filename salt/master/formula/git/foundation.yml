@@ -6,15 +6,15 @@ parameters:
           formula:
             aptly:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-aptly.git'
+              address: '${_param:salt_master_environment_repository}/aptly.git'
               revision: ${_param:salt_master_environment_revision}
             bind:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-bind.git'
+              address: '${_param:salt_master_environment_repository}/bind.git'
               revision: ${_param:salt_master_environment_revision}
             debmirror:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-debmirror.git'
+              address: '${_param:salt_master_environment_repository}/debmirror.git'
               revision: ${_param:salt_master_environment_revision}
             gerrit:
               module:
@@ -24,7 +24,7 @@ parameters:
                 gerrit.py:
                   enabled: true
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-gerrit.git'
+              address: '${_param:salt_master_environment_repository}/gerrit.git'
               revision: ${_param:salt_master_environment_revision}
             jenkins:
               module:
@@ -52,13 +52,13 @@ parameters:
                 jenkins_view.py:
                   enabled: true
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-jenkins.git'
+              address: '${_param:salt_master_environment_repository}/jenkins.git'
               revision: ${_param:salt_master_environment_revision}
             openldap:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-openldap.git'
+              address: '${_param:salt_master_environment_repository}/openldap.git'
               revision: ${_param:salt_master_environment_revision}
             powerdns:
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-powerdns.git'
+              address: '${_param:salt_master_environment_repository}/powerdns.git'
               revision: ${_param:salt_master_environment_revision}

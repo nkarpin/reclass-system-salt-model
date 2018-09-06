@@ -9,7 +9,7 @@ parameters:
                 devops_utils.py:
                   enabled: true
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-devops-portal.git'
+              address: '${_param:salt_master_environment_repository}/devops-portal.git'
               revision: ${_param:salt_master_environment_revision}
             rundeck:
               module:
@@ -25,5 +25,5 @@ parameters:
                 rundeck_secret.py:
                   enabled: true
               source: git
-              address: '${_param:salt_master_environment_repository}/salt-formula-rundeck.git'
+              address: '${_param:salt_master_environment_repository}/rundeck.git'
               revision: ${_param:salt_master_environment_revision}
